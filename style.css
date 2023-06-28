@@ -18,6 +18,12 @@ body {
     background-color: var(--light-gray);
 }
 
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
 .card {
     width: 375px;
     margin: 50px auto;
