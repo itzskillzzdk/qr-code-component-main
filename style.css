@@ -24,9 +24,16 @@ svg {
     max-width: 100%;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 .card {
     width: min(375px, 90%);
-    margin: 50px auto;
+    margin: auto;
     padding: 20px;
     background-color: var(--white);
     border-radius: 20px;
